@@ -1,0 +1,256 @@
+
+****** Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source /opt/tools/xilinx/Vivado/2017.4/scripts/vivado_hls/hls.tcl -notrace
+INFO: [HLS 200-10] Running '/opt/tools/xilinx/Vivado/2017.4/bin/unwrapped/lnx64.o/vivado_hls'
+INFO: [HLS 200-10] For user 'jieliu15' on host 'u11-jieliu15' (Linux_x86_64 version 4.4.0-124-generic) on Fri Sep 28 04:58:00 PDT 2018
+INFO: [HLS 200-10] On os Ubuntu 16.04.5 LTS
+INFO: [HLS 200-10] In directory '/curr/jieliu15/HLS_design/QR/qrf'
+INFO: [HLS 200-10] Opening project '/curr/jieliu15/HLS_design/QR/qrf/qr'.
+INFO: [HLS 200-10] Adding design file 'qrf.cpp' to the project
+INFO: [HLS 200-10] Adding design file 'qrf.h' to the project
+INFO: [HLS 200-10] Adding test bench file 'qrf_tb.cpp' to the project
+INFO: [HLS 200-10] Opening solution '/curr/jieliu15/HLS_design/QR/qrf/qr/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 4ns.
+INFO: [HLS 200-10] Setting target device to 'xc7vx690tffg1157-2'
+INFO: [HLS 200-10] Analyzing design file 'qrf.cpp' ...
+WARNING: [HLS 200-40] Cannot find source file qr.h; skipping it.
+WARNING: [HLS 200-40] Cannot find source file qr.cpp; skipping it.
+INFO: [HLS 200-10] Validating synthesis directives ...
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'second_order_float::sin_K1' can not be recognized(UNKNOWN VARIABLE) in 'sincos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'first_order_fixed_16::sin_cos_K1' can not be recognized(UNKNOWN VARIABLE) in 'sin_or_cos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'fourth_order_double::sin_K1' can not be recognized(UNKNOWN VARIABLE) in 'sincos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'second_order_float::cos_K1' can not be recognized(UNKNOWN VARIABLE) in 'sincos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'fourth_order_double::cos_K4' can not be recognized(UNKNOWN VARIABLE) in 'sincos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'second_order_float::cos_K0' can not be recognized(UNKNOWN VARIABLE) in 'sincos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'fourth_order_double::cos_K0' can not be recognized(UNKNOWN VARIABLE) in 'sincos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'fourth_order_double::cos_K3' can not be recognized(UNKNOWN VARIABLE) in 'sincos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'second_order_float::sin_cos_K0' can not be recognized(UNKNOWN VARIABLE) in 'sin_or_cos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'fourth_order_double::sin_K2' can not be recognized(UNKNOWN VARIABLE) in 'sincos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'fourth_order_double::sin_cos_K2' can not be recognized(UNKNOWN VARIABLE) in 'sin_or_cos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'second_order_float::sin_cos_K1' can not be recognized(UNKNOWN VARIABLE) in 'sin_or_cos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'fourth_order_double::sin_cos_K1' can not be recognized(UNKNOWN VARIABLE) in 'sin_or_cos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'fourth_order_double::sin_K0' can not be recognized(UNKNOWN VARIABLE) in 'sincos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'fourth_order_double::sin_cos_K0' can not be recognized(UNKNOWN VARIABLE) in 'sin_or_cos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'fourth_order_double::sin_K3' can not be recognized(UNKNOWN VARIABLE) in 'sincos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'second_order_float::sin_cos_K2' can not be recognized(UNKNOWN VARIABLE) in 'sin_or_cos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'fourth_order_double::sin_K4' can not be recognized(UNKNOWN VARIABLE) in 'sincos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'second_order_float::sin_K2' can not be recognized(UNKNOWN VARIABLE) in 'sincos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'fourth_order_double::cos_K1' can not be recognized(UNKNOWN VARIABLE) in 'sincos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'fourth_order_double::sin_cos_K3' can not be recognized(UNKNOWN VARIABLE) in 'sin_or_cos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'second_order_float::sin_K0' can not be recognized(UNKNOWN VARIABLE) in 'sincos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'first_order_fixed_16::sin_cos_K0' can not be recognized(UNKNOWN VARIABLE) in 'sin_or_cos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'fourth_order_double::sin_cos_K4' can not be recognized(UNKNOWN VARIABLE) in 'sin_or_cos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'fourth_order_double::cos_K2' can not be recognized(UNKNOWN VARIABLE) in 'sincos_approximation'.
+WARNING: [HLS 200-40] Directive 'RESOURCE' for core 'ROM_1P_LUTRAM' cannot be applied: Variable 'second_order_float::cos_K2' can not be recognized(UNKNOWN VARIABLE) in 'sincos_approximation'.
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:01:40 ; elapsed = 00:00:27 . Memory (MB): peak = 359.945 ; gain = 13.375 ; free physical = 123720 ; free virtual = 128730
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:02:24 ; elapsed = 00:01:15 . Memory (MB): peak = 359.945 ; gain = 13.375 ; free physical = 122835 ; free virtual = 127868
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:02:49 ; elapsed = 00:01:47 . Memory (MB): peak = 1319.953 ; gain = 973.383 ; free physical = 121509 ; free virtual = 126918
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::data' into 'fp_struct<float>::to_float' (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/src/technology/autopilot/header_files/utils/x_hls_utils.h:349) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::to_float' into 'fp_struct<float>::to_ieee' (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/src/technology/autopilot/header_files/utils/x_hls_utils.h:370) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::to_ieee' into 'hls::generic_copysign<float>' (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_basic_math.h:253) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::generic_copysign<float>' into 'hls::generic_fabs<float>' (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_basic_math.h:259) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::generic_fabs<float>' into 'hls::abs' (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/libhlsmc++-Part1.cpp:336) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::hls_rsr::generic_sqrt' into 'hls::sqrtf' (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/libhlsmc++-Part2.cpp:128) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::sqrtf' into 'hls::x_sqrt' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/utils/x_hls_matrix_utils.h:110) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::abs' into 'hls::qrf_magnitude<float>' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:147) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::x_sqrt' into 'hls::qrf_magnitude<float>' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:151) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::generic_copysign<float>' into 'hls::copysignf' (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/libhlsmc++-Part1.cpp:254) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::copysignf' into 'hls::x_copysign' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/utils/x_hls_matrix_utils.h:124) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::abs' into 'hls::qrf_givens<float>' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:234) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::x_copysign' into 'hls::qrf_givens<float>' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:235) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::qrf_vm<float>' into 'hls::qrf_mm_or_mag<float>' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:122) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::x_real<float const>' into 'hls::qrf_mm_or_mag<float>' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:132) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::qrf_vm<float>' into 'hls::qrf_mm<float>' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:113) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::qrf_mm_or_mag<float>' into 'hls::qrf_alt<false, 8, 8, MY_CONFIG, float, float>' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:667) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::qrf_mm<float>' into 'hls::qrf_alt<false, 8, 8, MY_CONFIG, float, float>' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:672) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::x_conj<float>' into 'hls::qrf_alt<false, 8, 8, MY_CONFIG, float, float>' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:690) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::qrf_top<false, 8, 8, MY_CONFIG, float, float>' into 'qrf_top' (qrf.cpp:60) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:02:56 ; elapsed = 00:01:55 . Memory (MB): peak = 1809.168 ; gain = 1462.598 ; free physical = 120204 ; free virtual = 125665
+INFO: [XFORM 203-501] Unrolling loop 'update_r' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:660) in function 'hls::qrf_alt<false, 8, 8, MY_CONFIG, float, float>' partially with a factor of 2.
+INFO: [XFORM 203-501] Unrolling loop 'update_q' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:669) in function 'hls::qrf_alt<false, 8, 8, MY_CONFIG, float, float>' partially with a factor of 2.
+INFO: [XFORM 203-102] Partitioning array 'G.0' automatically.
+INFO: [XFORM 203-102] Partitioning array 'G.1' automatically.
+INFO: [XFORM 203-102] Partitioning array 'G.0' automatically.
+INFO: [XFORM 203-102] Partitioning array 'G.1' automatically.
+INFO: [XFORM 203-102] Partitioning array 'G_delay' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:594) in dimension 1 automatically.
+INFO: [XFORM 203-102] Partitioning array 'G_delay.0' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:594) automatically.
+INFO: [XFORM 203-102] Partitioning array 'G_delay.1' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:594) automatically.
+INFO: [XFORM 203-102] Partitioning array 'CONFIG.SEQUENCE' in dimension 2 automatically.
+INFO: [XFORM 203-102] Automatically partitioning streamed array 'to_rot.V' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:583) .
+INFO: [XFORM 203-102] Automatically partitioning streamed array 'rotations.V' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:592) .
+INFO: [XFORM 203-101] Partitioning array 'q_i' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:577) in dimension 2 with a cyclic factor 2.
+INFO: [XFORM 203-101] Partitioning array 'r_i' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:578) in dimension 2 with a cyclic factor 2.
+INFO: [XFORM 203-101] Partitioning array 'to_rot.V' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:583) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'rotations.V' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:592) in dimension 1 completely.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::data' into 'fp_struct<float>::to_float' (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/src/technology/autopilot/header_files/utils/x_hls_utils.h:349) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::to_float' into 'fp_struct<float>::to_ieee' (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/src/technology/autopilot/header_files/utils/x_hls_utils.h:370) automatically.
+INFO: [XFORM 203-602] Inlining function 'fp_struct<float>::to_ieee' into 'hls::generic_copysign<float>' (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_basic_math.h:253) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::generic_copysign<float>' into 'hls::generic_fabs<float>' (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/../include/internal/hls_basic_math.h:259) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::generic_fabs<float>' into 'hls::abs' (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/libhlsmc++-Part1.cpp:336) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::hls_rsr::generic_sqrt' into 'hls::sqrtf' (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/libhlsmc++-Part2.cpp:128) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::sqrtf' into 'hls::x_sqrt' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/utils/x_hls_matrix_utils.h:110) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::abs' into 'hls::qrf_magnitude<float>' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:147) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::x_sqrt' into 'hls::qrf_magnitude<float>' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:151) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::generic_copysign<float>' into 'hls::copysignf' (/wrk/2017.4/nightly/2017_12_15_2086221/src/products/hls/hls_lib/hlsmath/src/libhlsmc++-Part1.cpp:254) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::copysignf' into 'hls::x_copysign' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/utils/x_hls_matrix_utils.h:124) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::qrf_magnitude<float>' into 'hls::qrf_givens<float>' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:232) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::abs' into 'hls::qrf_givens<float>' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:234) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::x_copysign' into 'hls::qrf_givens<float>' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:235) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::qrf_vm<float>' into 'hls::qrf_mm_or_mag<float>' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:122) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::x_real<float const>' into 'hls::qrf_mm_or_mag<float>' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:132) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::qrf_vm<float>' into 'hls::qrf_mm<float>' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:113) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::qrf_mm_or_mag<float>' into 'hls::qrf_alt<false, 8, 8, MY_CONFIG, float, float>' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:667) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::qrf_mm<float>' into 'hls::qrf_alt<false, 8, 8, MY_CONFIG, float, float>' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:672) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::x_conj<float>' into 'hls::qrf_alt<false, 8, 8, MY_CONFIG, float, float>' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:690) automatically.
+INFO: [XFORM 203-602] Inlining function 'hls::qrf_top<false, 8, 8, MY_CONFIG, float, float>' into 'qrf_top' (qrf.cpp:60) automatically.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:618:93) to (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:618:82) in function 'hls::qrf_alt<false, 8, 8, MY_CONFIG, float, float>'... converting 7 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:681:49) to (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:681:43) in function 'hls::qrf_alt<false, 8, 8, MY_CONFIG, float, float>'... converting 4 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:685:54) to (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:685:48) in function 'hls::qrf_alt<false, 8, 8, MY_CONFIG, float, float>'... converting 4 basic blocks.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:03:08 ; elapsed = 00:02:12 . Memory (MB): peak = 2449.168 ; gain = 2102.598 ; free physical = 119955 ; free virtual = 125857
+WARNING: [XFORM 203-542] Cannot flatten a loop nest 'row_copy' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:598:43) in function 'hls::qrf_alt<false, 8, 8, MY_CONFIG, float, float>' : 
+
+more than one sub loop.
+WARNING: [XFORM 203-542] Cannot flatten a loop nest 'rotate' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:641:85) in function 'hls::qrf_alt<false, 8, 8, MY_CONFIG, float, float>' : 
+
+more than one sub loop.
+WARNING: [XFORM 203-542] Cannot flatten a loop nest 'px' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:616:79) in function 'hls::qrf_alt<false, 8, 8, MY_CONFIG, float, float>' : 
+
+more than one sub loop.
+WARNING: [XFORM 203-542] Cannot flatten a loop nest 'row_assign_loop' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:678:50) in function 'hls::qrf_alt<false, 8, 8, MY_CONFIG, float, float>' : 
+
+more than one sub loop.
+WARNING: [XFORM 203-631] Renaming function 'hls::qrf_givens<float>' to 'qrf_givens<float>' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:226)
+WARNING: [XFORM 203-631] Renaming function 'hls::qrf_alt<false, 8, 8, MY_CONFIG, float, float>' to 'qrf_alt' (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:107:42)
+INFO: [XFORM 203-521] Merging 2 loops (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:601, /opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:609) in function 'qrf_alt'.
+INFO: [XFORM 203-521] Merging 2 loops (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:660, /opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:669) in function 'qrf_alt'.
+INFO: [XFORM 203-521] Merging 2 loops (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:681, /opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:685) in function 'qrf_alt'.
+WARNING: [XFORM 203-561] Ignored multiple trip count directives for loop 'col_copy_r_i' in function 'qrf_alt'.
+WARNING: [XFORM 203-561] Ignored multiple trip count directives for loop 'update_r' in function 'qrf_alt'.
+WARNING: [XFORM 203-561] Ignored multiple trip count directives for loop 'col_r_assign_loop' in function 'qrf_alt'.
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:03:11 ; elapsed = 00:02:16 . Memory (MB): peak = 2634.758 ; gain = 2288.188 ; free physical = 119345 ; free virtual = 125252
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'qrf_top' ...
+WARNING: [SYN 201-103] Legalizing function name 'qrf_givens<float>' to 'qrf_givens_float_s'.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'qrf_givens_float_s'
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'qrf_givens<float>'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 74.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 135.97 seconds; current allocated memory: 1.925 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.81 seconds; current allocated memory: 1.925 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'qrf_alt'
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'col_copy_q_i'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 4.
+INFO: [SCHED 204-61] Pipelining loop 'calc_rotations'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 79.
+INFO: [SCHED 204-61] Pipelining loop 'update_r'.
+WARNING: [SCHED 204-69] Unable to schedule 'store' operation (/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:667) of variable 'a', /opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:124->/opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:667 on array 'r_i[0]', /opt/tools/xilinx/Vivado/2017.4/common/technology/autopilot/hls/linear_algebra/hls_qrf.h:578 due to limited memory ports. Please consider using a memory core with more ports or partitioning the array 'r_i_0'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 2, Depth = 21.
+INFO: [SCHED 204-61] Pipelining loop 'col_r_assign_loop'.
+INFO: [SCHED 204-61] Pipelining result : Target II = 1, Final II = 1, Depth = 3.
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 1.21 seconds; current allocated memory: 1.927 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 1.77 seconds; current allocated memory: 1.929 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'qrf_top'
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.93 seconds; current allocated memory: 1.930 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.38 seconds; current allocated memory: 1.930 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'qrf_givens_float_s'
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SYN 201-210] Renamed object name 'qrf_top_fadd_32ns_32ns_32_9_full_dsp_0' to 'qrf_top_fadd_32nsbkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'qrf_top_fmul_32ns_32ns_32_5_max_dsp_0' to 'qrf_top_fmul_32nscud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'qrf_top_fdiv_32ns_32ns_32_17_0' to 'qrf_top_fdiv_32nsdEe' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'qrf_top_fcmp_32ns_32ns_1_2_0' to 'qrf_top_fcmp_32nseOg' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'qrf_top_fsqrt_32ns_32ns_32_17_0' to 'qrf_top_fsqrt_32nfYi' due to the length limit 20
+INFO: [RTGEN 206-104] Estimated max fanout for 'qrf_givens_float_s' is 10943 from HDL expression: ((1'b0 == ap_block_pp0_stage0_11001) & (1'b1 == ap_ce_reg))
+INFO: [RTGEN 206-100] Generating core module 'qrf_top_fadd_32nsbkb': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'qrf_top_fcmp_32nseOg': 4 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'qrf_top_fdiv_32nsdEe': 4 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'qrf_top_fmul_32nscud': 4 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'qrf_top_fsqrt_32nfYi': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'qrf_givens_float_s'.
+INFO: [HLS 200-111]  Elapsed time: 0.8 seconds; current allocated memory: 1.932 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'qrf_alt'
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SYN 201-210] Renamed object name 'qrf_alt_CONFIG_BATCH_CNTS' to 'qrf_alt_CONFIG_BAg8j' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'qrf_alt_CONFIG_SEQUENCE_0' to 'qrf_alt_CONFIG_SEhbi' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'qrf_alt_CONFIG_SEQUENCE_1' to 'qrf_alt_CONFIG_SEibs' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'qrf_alt_CONFIG_SEQUENCE_2' to 'qrf_alt_CONFIG_SEjbC' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'qrf_top_fadd_32nsbkb': 4 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'qrf_top_fmul_32nscud': 8 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'qrf_alt'.
+INFO: [HLS 200-111]  Elapsed time: 1.25 seconds; current allocated memory: 1.938 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'qrf_top'
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'qrf_top/A' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'qrf_top/Q' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'qrf_top/R' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'qrf_top' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'qrf_top'.
+INFO: [HLS 200-111]  Elapsed time: 1.79 seconds; current allocated memory: 1.943 GB.
+INFO: [RTMG 210-279] Implementing memory 'qrf_alt_CONFIG_BAg8j_rom' using distributed ROMs.
+INFO: [RTMG 210-279] Implementing memory 'qrf_alt_CONFIG_SEhbi_rom' using distributed ROMs.
+INFO: [RTMG 210-279] Implementing memory 'qrf_alt_CONFIG_SEibs_rom' using distributed ROMs.
+INFO: [RTMG 210-279] Implementing memory 'qrf_alt_CONFIG_SEjbC_rom' using distributed ROMs.
+INFO: [RTMG 210-278] Implementing memory 'qrf_alt_q_i_0_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-285] Implementing FIFO 'fifo_w32_d4_A' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'fifo_w32_d4_A' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'fifo_w32_d4_A' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'fifo_w32_d4_A' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'fifo_w32_d4_A' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'fifo_w32_d4_A' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'fifo_w32_d4_A' using Shift Registers.
+INFO: [RTMG 210-285] Implementing FIFO 'fifo_w32_d4_A' using Shift Registers.
+INFO: [RTMG 210-278] Implementing memory 'qrf_top_a_i_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:03:19 ; elapsed = 00:02:30 . Memory (MB): peak = 2634.758 ; gain = 2288.188 ; free physical = 119182 ; free virtual = 125284
+INFO: [SYSC 207-301] Generating SystemC RTL for qrf_top.
+INFO: [VHDL 208-304] Generating VHDL RTL for qrf_top.
+INFO: [VLOG 209-307] Generating Verilog RTL for qrf_top.
+ERROR: [COSIM 212-41] ../../qr_tb.cpp is not found.
+WARNING: [COSIM 212-42] Please make sure test bench files are set correctly in Vivado HLS project tcl.
+ERROR: [COSIM 212-4] *** C/RTL co-simulation finished: FAIL ***
+3
+    while executing
+"source script.tcl"
+    invoked from within
+"hls::main script.tcl"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel 1 hls::main {*}$args"
+    (procedure "hls_proc" line 5)
+    invoked from within
+"hls_proc $argv"
+INFO: [HLS 200-112] Total elapsed time: 152.31 seconds; peak allocated memory: 1.943 GB.
+INFO: [Common 17-206] Exiting vivado_hls at Fri Sep 28 05:00:32 2018...

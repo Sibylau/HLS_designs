@@ -1,0 +1,6 @@
+<configuration>
+	<param name="ROW">4</param>
+	<param name="COL">4</param>
+	<param name="BIT_R">3</param>
+	<param name="BIT_C">3</param>
+</configuration>

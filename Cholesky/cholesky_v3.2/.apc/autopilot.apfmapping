@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="cholesky_top.h" path="/curr/jieliu15/Testbench/Cholesky/example/cholesky/cholesky_top.h"/>
+    <originFiles name="cholesky_top.cpp" path="/curr/jieliu15/Testbench/Cholesky/example/cholesky/cholesky_top.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="cholesky_tb.cpp" path="/curr/jieliu15/Testbench/Cholesky/example/cholesky/cholesky_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
