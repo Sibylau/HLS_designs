@@ -36,8 +36,17 @@ Please manually modify the parameter `BIT` according to `BIT = ceiling(log2(SIZE
   |- model4x4/
   |- template/
 ```
+- Go to `Design_Folder/` and call `genA()` in `MATLAB` to generate a random operand matrix A required for testbench.      
+Some specific cases like 8x8, 16x16 etc. are provided under `Design_Folder/`. You can use it or generate a new one.
+```
+How to use function genA():
+For Cholesky: generating NxN symmetric positive definite matrix by calling genA(N)
+For LU: generating NxN full rank matrix by calling genA(N)
+For QR: generating MxN full rank matrix by calling genA(M,N)
+```
 - Go to `Design_Folder/design_files/MxN/`, run `script.tcl` in vivado_hls environment by `$vivado_hls script.tcl`.
 - Revise `script.tcl` according to your demands. It by default runs through csim, synthesis and cosim.
+
 
 ## Versions
 #### Cholesky
