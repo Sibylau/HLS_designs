@@ -25,8 +25,8 @@ For a understanding of each design, please go to `model4x4/` and view the commen
 
 #### Run it
 For each design,
-- Go to `common/`. Find `algorithm_name.cfg.xml`, revise it according to the matrix size MxN.
-- Run `runit.csh`. It will generate a new folder `design_files` with the design `MxN` inside:
+- Go to `common/`. Find `algorithm_name.cfg.xml`, revise it according to your matrix size MxN.
+- Run `runit.csh`. It will generate a new folder `design_files/` with the design `MxN/` inside:
 ```
 |-- Design_Folder/
   |- common/
