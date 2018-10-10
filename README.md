@@ -10,7 +10,33 @@ Systolic array implementations for Cholesky, LU, and QR decomposition using HLS
 
 #### Directory Tree
 
-#### Configure and run 
+Inside each design folder, here are:
+```
+|-- Design_Folder/
+  |- common/ 
+  |- model4x4/
+  |- template/
+```
+Folder `common/` includes script files shared for different designs.     
+Folder `model4x4/` gives an example of 4x4 implementation, with detailed comments alongside the codes.     
+Folder `template/` includes template cpp files used for generating codes.     
+For a understanding of each design, please go to `model4x4/` and view the comments in `design_name.cpp`, and refer to the illustrations shown below if necessary : )
+
+
+#### Run it
+For each design,
+- Go to `common/`. Find `algorithm_name.cfg.xml`, revise it according to the matrix size MxN.
+- Run `runit.csh`. It will generate a new folder `design_files` with the design `MxN` inside:
+```
+|-- Design_Folder/
+  |- common/
+  |- design_files/
+    |- MxN/
+  |- model4x4/
+  |- template/
+```
+- Go to `Design_Folder/design_files/MxN/`, run `script.tcl` in vivado_hls environment by `$vivado_hls script.tcl`.
+- Revise `script.tcl` according to your demands. It by default runs through csim, synthesis and cosim.
 
 ## Versions
 #### Cholesky
