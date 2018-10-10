@@ -25,7 +25,7 @@ For a understanding of each design, please go to `model4x4/` and view the commen
 
 #### Run it
 For each design,
-- Go to `common/`. Find `algorithm_name.cfg.xml`, revise it according to your matrix size MxN.
+- Go to `common/`. Find `algorithm_name.cfg.xml`, revise it according to your matrix size MxN. Please manually modify the parameter `BIT` according to `BIT = ceiling(log2(SIZE))`.
 - Run `runit.csh`. It will generate a new folder `design_files/` with the design `MxN/` inside:
 ```
 |-- Design_Folder/
