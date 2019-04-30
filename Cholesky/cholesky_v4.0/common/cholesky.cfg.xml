@@ -1,4 +1,4 @@
 <configuration>
-	<param name="SIZE">4</param>
-	<param name="BIT">3</param>
+	<param name="SIZE">128</param>
+	<param name="BIT">8</param>
 </configuration>
