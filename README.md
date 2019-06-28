@@ -88,4 +88,25 @@ Replace unroll with pipeline in qr_v1.1 for better performance, as automatically
 A 2-D systolic array design for QR Decomposition along projection vector (i,j,k)=(1,0,0), as illustrated below in (b). 
 <img src="https://github.com/Sibylau/HLS_designs/blob/master/Illustrations/qr_2d.png" width="500">
 
+## Citation
+I'd appreciate it if you could take a look at the following abstract and please cite it if it helps your work. :)
+```
+@inproceedings{Liu:2019:DSA:3289602.3293969,
+ author = {Liu, Jie and Cong, Jason},
+ title = {Dataflow Systolic Array Implementations of Matrix Decomposition Using High Level Synthesis},
+ booktitle = {Proceedings of the 2019 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays},
+ series = {FPGA '19},
+ year = {2019},
+ isbn = {978-1-4503-6137-8},
+ location = {Seaside, CA, USA},
+ pages = {187--187},
+ numpages = {1},
+ url = {http://doi.acm.org/10.1145/3289602.3293969},
+ doi = {10.1145/3289602.3293969},
+ acmid = {3293969},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {dataflow, high-level synthesis, matrix decomposition, systolic array, throughput},
+} 
+```
 
