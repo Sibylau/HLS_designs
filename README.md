@@ -1,4 +1,4 @@
-# HLS_designs
+# Dataflow Systolic Array Implementations of Matrix Decomposition Using High Level Synthesis
 
 Systolic array implementations for Cholesky, LU, and QR decomposition using HLS
 
